@@ -1,6 +1,6 @@
 resource "aws_instance" "myFirstInstance" {
   ami           = "ami-0747bdcabd34c712a"
-  count=1								>create one instance
+  count=1
   key_name = "myEC2Key2021"
   instance_type = "t2.micro"
   security_groups= [ "security_jenkins_port"]
