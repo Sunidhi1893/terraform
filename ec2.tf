@@ -1,3 +1,4 @@
+#testing local commit push
 resource "aws_instance" "myFirstInstance" {
   ami           = "ami-0747bdcabd34c712a"
   count=1
